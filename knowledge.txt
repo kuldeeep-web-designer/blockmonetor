@@ -1,0 +1,138 @@
+BLOCKMENTOR AI - BLOCKCHAIN KNOWLEDGE BASE
+
+🔹 BLOCKCHAIN FUNDAMENTALS
+Blockchain is a decentralized and distributed digital ledger that records transactions across multiple computers. Each block contains data, a timestamp, and a cryptographic hash of the previous block.
+
+Key Concepts:
+- Decentralization: No central authority controls the network
+- Immutability: Data cannot be changed once recorded
+- Transparency: All transactions are visible on the network
+- Security: Cryptography ensures data integrity
+
+Example:
+Bitcoin and Ethereum use blockchain to store transaction data securely.
+
+--------------------------------------------------
+
+🔹 CONSENSUS MECHANISMS
+Consensus mechanisms ensure agreement among network participants.
+
+Types:
+- Proof of Work (PoW): Requires computational power (used in Bitcoin)
+- Proof of Stake (PoS): Validators stake coins (used in Ethereum 2.0)
+- Delegated Proof of Stake (DPoS): Voting-based validation
+
+--------------------------------------------------
+
+🔹 BLOCKCHAIN PLATFORMS
+
+Ethereum:
+- Smart contract platform
+- Uses Solidity language
+- Supports decentralized applications (dApps)
+
+Polygon:
+- Layer 2 scaling solution for Ethereum
+- Faster transactions with low fees
+
+Hyperledger Fabric:
+- Permissioned blockchain
+- Used in enterprise applications
+- Supports private transactions
+
+--------------------------------------------------
+
+🔹 SMART CONTRACTS (SOLIDITY)
+Smart contracts are self-executing programs stored on the blockchain.
+
+Example:
+```solidity
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+contract SimpleStorage {
+    uint256 public value;
+
+    function setValue(uint256 _v) public {
+        value = _v;
+    }
+
+    function getValue() public view returns (uint256) {
+        return value;
+    }
+}
+--------------------------------------------------
+
+🔹 BLOCKCHAIN PRACTICE QUESTIONS
+
+BEGINNER LEVEL (30 QUESTIONS)
+
+1. What is blockchain?
+2. What is a block?
+3. What is a hash?
+4. How are blocks linked together?
+5. What is decentralization?
+6. What is cryptocurrency?
+7. What is Bitcoin?
+8. What is Ethereum?
+9. What is a smart contract?
+10. What is a DApp?
+11. What is a node in blockchain?
+12. What is a ledger?
+13. What is mining?
+14. What is Proof of Work?
+15. What is Proof of Stake?
+16. What is a transaction?
+17. What is a wallet?
+18. What is a private key?
+19. What is a public key?
+20. What is cryptography?
+21. What is blockchain security?
+22. What is transparency in blockchain?
+23. What is immutability?
+24. What is a genesis block?
+25. What is peer-to-peer network?
+26. What is digital signature?
+27. What is token?
+28. What is coin?
+29. What is gas fee?
+30. What is blockchain scalability?
+
+--------------------------------------------------
+
+INTERMEDIATE LEVEL (30 QUESTIONS)
+
+31. What is a smart contract audit?
+32. What is Ethereum gas?
+33. What is a transaction fee?
+34. What is Solidity?
+35. What is a public blockchain?
+36. What is a private blockchain?
+37. What is a consortium blockchain?
+38. What is Layer 2 scaling?
+39. What is Web3.js?
+40. What is Ethers.js?
+41. What is a blockchain fork?
+42. What is a hard fork?
+43. What is a soft fork?
+44. What is a consensus algorithm?
+45. What is staking?
+46. What is delegation in Proof of Stake?
+47. What is a validator node?
+48. What is a miner node?
+49. What is a sidechain?
+50. What is an oracle in blockchain?
+51. What is gas optimization?
+52. What is smart contract deployment?
+53. What is ABI in Ethereum?
+54. What is ERC-20 token?
+55. What is ERC-721 token?
+56. What is DeFi?
+57. What is yield farming?
+58. What is liquidity pool?
+59. What is DAO?
+60. What is cross-chain technology?
+
+--------------------------------------------------
+
+END OF QUESTIONS
